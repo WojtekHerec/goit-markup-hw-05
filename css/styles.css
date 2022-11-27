@@ -50,7 +50,6 @@ body {
 }
 
 .title-solutions {
-  background-color: var(--dark-gray-color);
   color: var(--pure-white-color);
   text-align: center;
   letter-spacing: 0.06em;
@@ -69,6 +68,7 @@ body {
   color: var(--pure-white-color);
   height: 50px;
   width: 200px;
+
   margin: 0px 700px 200px 700px;
 
   border: 0px;
@@ -88,6 +88,7 @@ body {
   height: 600px;
   left: 0px;
   top: 80px;
+  background-color: var(--dark-gray-color);
 }
 
 .our-job {
