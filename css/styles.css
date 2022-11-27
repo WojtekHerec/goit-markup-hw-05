@@ -176,7 +176,7 @@ body {
   outline: none;
 }
 
-.address-logo,
+.address-logo span,
 .navigation-logo span {
   color: var(--blue-color);
 }
