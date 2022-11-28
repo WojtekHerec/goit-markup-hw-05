@@ -58,9 +58,8 @@ body {
   top: 80px;
   font-weight: 900;
   font-size: 44px;
-
   line-height: 1.36;
-  padding: 200px 452px 280px 452px;
+  padding: 200px 452px 0px 452px;
 }
 
 .order-button {
@@ -68,8 +67,6 @@ body {
   color: var(--pure-white-color);
   height: 50px;
   width: 200px;
-
-  margin: 0px 700px 200px 700px;
 
   border: 0px;
   border-radius: 4px;
