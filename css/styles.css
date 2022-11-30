@@ -55,8 +55,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   width: 1600px;
-  height: 600px;
-  top: 80px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -66,7 +65,7 @@ body {
 .order-button {
   color: var(--pure-white-color);
   background-color: var(--blue-color);
-  margin: var(--dark-gray-color);
+  margin: 30px 700px 200px 700px;
   height: 50px;
   width: 200px;
 
@@ -87,8 +86,7 @@ body {
 .banner-title {
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
+
   background-color: var(--dark-gray-color);
 }
 
