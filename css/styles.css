@@ -30,6 +30,7 @@ body {
   display: flex;
   height: 80px;
   width: 1600px;
+  align-items: center;
 }
 
 .navigation-list a:focus,
@@ -63,8 +64,9 @@ body {
 }
 
 .order-button {
-  background-color: var(--blue-color);
   color: var(--pure-white-color);
+  background-color: var(--blue-color);
+  margin: var(--dark-gray-color);
   height: 50px;
   width: 200px;
 
@@ -79,12 +81,18 @@ body {
 .banner-list {
   display: flex;
   margin: 94px 215px 179px;
+  background-color: var(--pure-white-color);
 }
-.banner div {
+
+.banner-title {
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
+  background-color: var(--dark-gray-color);
+}
+
+.banner {
   background-color: var(--dark-gray-color);
 }
 
@@ -170,7 +178,9 @@ body {
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
 }
-
+.link-phone-mail {
+  display: flex;
+}
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
   color: var(--blue-color);
