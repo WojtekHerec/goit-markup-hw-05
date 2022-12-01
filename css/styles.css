@@ -45,6 +45,7 @@ body {
 .navigation-list {
   display: flex;
   list-style: none;
+  gap: 46px;
   border-radius: 4px;
   width: 200px;
   border: 0px;
@@ -82,6 +83,7 @@ body {
 
 .banner-list {
   display: flex;
+  gap: 30px;
   margin: 94px 215px 0px 215px;
   background-color: var(--pure-white-color);
   list-style: none;
@@ -174,6 +176,7 @@ body {
   line-height: 1.17;
   list-style: none;
   font-size: 14px;
+  gap: 9px;
 }
 
 .address-link-phone-mail {
@@ -193,6 +196,8 @@ body {
 .link-phone-mail {
   display: flex;
   list-style: none;
+  gap: 50px;
+  padding: 32px 227px 32px 371px;
 }
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
