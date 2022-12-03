@@ -7,6 +7,7 @@
   --pure-white-color: #fff;
   --light-grey-color: rgba(117, 117, 117, 1);
   --border-color: rgba(236, 236, 236, 1);
+  --button-color: rgba(245, 244, 250, 1);
 }
 
 body {
@@ -84,7 +85,8 @@ body {
 .banner-list {
   display: flex;
   gap: 30px;
-  margin: 94px 215px 0px 215px;
+  padding: 94px 215px 0px 215px;
+
   background-color: var(--pure-white-color);
   list-style: none;
 }
@@ -123,8 +125,6 @@ body {
   width: 1600px;
   height: 252px;
   font-size: 14px;
-  left: 0px;
-  top: 2097px;
 }
 
 .our-job-title {
@@ -145,8 +145,11 @@ body {
 
 .products-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  padding-bottom: 94px;
   list-style: none;
+  margin: 50px 175px 94px 215px;
 }
 .navigation a {
   text-decoration: none;
@@ -175,6 +178,7 @@ body {
   color: var(--gray-color);
   line-height: 1.17;
   list-style: none;
+
   font-size: 14px;
   gap: 9px;
 }
@@ -206,10 +210,22 @@ body {
 
 .button-list {
   display: flex;
-  height: 50px;
-  width: 200px;
   list-style: none;
+  gap: 8px;
+  padding-right: 8px;
+  margin: 94px 518px 50px 510px;
+}
+.button-list-input {
+  height: 38px;
+  width: 121px;
+  font-size: 16px;
+  line-height: 1.62;
   font-weight: 500;
+  color: var(--main-color);
+  background-color: var(--button-color);
+  border-radius: 4px;
+  cursor: pointer;
+  border-style: none;
 }
 .button-list :focus {
   background-color: var(--blue-color);
@@ -233,11 +249,9 @@ body {
   height: 31px;
 }
 .address-logo {
-  top: 2157px;
-  margin: 60px 140px 161px 215px;
+  margin: 60px 1240px 161px 215px;
 }
 .navigation-logo {
-  top: 24px;
   margin: 24px 93px 25px 215px;
 }
 
