@@ -42,18 +42,17 @@ body {
   color: var(--blue-color);
   outline: none;
 }
-
 .navigation-list {
   display: flex;
   list-style: none;
   gap: 46px;
-  border-radius: 4px;
-  width: 200px;
   border: 0px;
   line-height: 1.17;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+.navigation-list-item {
 }
 
 .title-solutions {
