@@ -16,10 +16,9 @@ body {
   color: var(--main-color);
   letter-spacing: 0.03em;
 }
-
 .page {
   justify-content: center;
-  width: 1600px;
+  width: 1200px;
   height: 2349px;
   margin: 0 auto;
 }
@@ -30,8 +29,7 @@ body {
 
 .navigation {
   display: flex;
-  height: 80px;
-  width: 1600px;
+
   align-items: center;
 
   border-bottom: 1px solid var(--border-color);
@@ -52,24 +50,27 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.navigation-list-item {
+section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .title-solutions {
   color: var(--pure-white-color);
+
   text-align: center;
   letter-spacing: 0.06em;
-  width: 1600px;
+  width: 1200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding: 200px 452px 0px 452px;
+  padding: 106px 237px 0px 237px;
 }
 
 .order-button {
   color: var(--pure-white-color);
   background-color: var(--blue-color);
-  margin: 30px 700px 200px 700px;
+  margin: 30px 485px 200px 485px;
   height: 50px;
   width: 200px;
 
@@ -80,11 +81,13 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
-
+.banner-description {
+  padding-bottom: 0px;
+}
 .banner-list {
   display: flex;
+
   gap: 30px;
-  padding: 94px 215px 0px 215px;
 
   background-color: var(--pure-white-color);
   list-style: none;
@@ -92,7 +95,7 @@ body {
 
 .banner {
   background-color: var(--dark-gray-color);
-  width: 1600px;
+  width: 1200px;
   height: 600px;
 }
 
@@ -103,8 +106,8 @@ body {
 .our-job-list {
   display: flex;
   list-style: none;
+  padding-left: 0px;
   gap: 30px;
-  padding: 0px 215px 94px 215px;
 }
 
 .team {
@@ -114,14 +117,14 @@ body {
 .team-list {
   display: flex;
   list-style: none;
+  padding-left: 0px;
   gap: 30px;
-  padding: 0px 215px 94px 215px;
 }
 
 .address-bottom {
   background-color: var(--dark-gray-color);
   color: var(--pure-white-color);
-  width: 1600px;
+  width: 1200px;
   height: 252px;
   font-size: 14px;
 }
@@ -129,7 +132,7 @@ body {
 .our-job-title {
   color: var(--main-color);
 
-  padding: 94px 624px 50px 624px;
+  padding: 0px 409px 50px 409px;
   line-height: 1.17;
   font-size: 36px;
   font-weight: 700;
@@ -137,7 +140,7 @@ body {
 
 .team-title {
   color: var(--main-color);
-  padding: 94px 695px 50px 695px;
+  padding: 0px 480px 50px 480px;
   font-size: 36px;
   font-weight: 700;
 }
@@ -145,10 +148,10 @@ body {
 .products-list {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
   gap: 30px;
   padding-bottom: 94px;
   list-style: none;
-  margin: 50px 175px 94px 215px;
 }
 .navigation a {
   text-decoration: none;
@@ -200,7 +203,7 @@ body {
   display: flex;
   list-style: none;
   gap: 50px;
-  padding: 32px 227px 32px 371px;
+  padding: 32px 13px 32px 371px;
 }
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
@@ -212,7 +215,7 @@ body {
   list-style: none;
   gap: 8px;
   padding-right: 8px;
-  margin: 94px 518px 50px 510px;
+  margin: 0px 303px 50px 285px;
 }
 .button-list-input {
   height: 38px;
@@ -248,10 +251,10 @@ body {
   height: 31px;
 }
 .address-logo {
-  margin: 60px 1240px 161px 215px;
+  margin: 60px 1240px 161px 0px;
 }
 .navigation-logo {
-  margin: 24px 93px 25px 215px;
+  margin: 24px 93px 25px 0px;
 }
 
 .products-list-title {
@@ -264,6 +267,7 @@ body {
   line-height: 1.17;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
 }
 .banner-list-title {
   line-height: 1.17;
@@ -287,4 +291,5 @@ body {
   color: var(--light-grey-color);
   line-height: 1.17;
   font-size: 16px;
+  text-align: center;
 }
