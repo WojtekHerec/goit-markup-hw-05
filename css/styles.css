@@ -18,20 +18,23 @@ body {
 }
 .page {
   justify-content: center;
-  width: 1200px;
-  height: 2349px;
+  width: 1600px;
   margin: 0 auto;
 }
-
+.container {
+  width: 1200px;
+  padding: 0px 215px 0px 215px;
+}
 .page a:focus {
   outline: none;
 }
 
 .navigation {
   display: flex;
-
   align-items: center;
-
+}
+.container-navigation {
+  width: 1600px;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -49,29 +52,28 @@ body {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 32px 0px;
 }
 section {
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .title-solutions {
   color: var(--pure-white-color);
-
   text-align: center;
   letter-spacing: 0.06em;
-  width: 1200px;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  padding: 106px 237px 0px 237px;
+  margin: 0px 237px;
+  padding-top: 200px;
 }
 
 .order-button {
   color: var(--pure-white-color);
   background-color: var(--blue-color);
   margin: 30px 485px 200px 485px;
-  height: 50px;
+  padding: 10px 41px 10px 41px;
   width: 200px;
 
   border: 0px;
@@ -82,25 +84,29 @@ section {
   line-height: 1.87;
 }
 .banner-description {
-  padding-bottom: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .banner-list {
   display: flex;
-
+  padding-left: 215px;
   gap: 30px;
-
   background-color: var(--pure-white-color);
   list-style: none;
 }
 
 .banner {
   background-color: var(--dark-gray-color);
-  width: 1200px;
-  height: 600px;
+  width: 1600px;
+
+  padding-bottom: 94px;
 }
 
 .our-job {
   background-color: var(--pure-white-color);
+
+  padding-bottom: 94px;
 }
 
 .our-job-list {
@@ -112,6 +118,8 @@ section {
 
 .team {
   background-color: var(--white-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-list {
@@ -124,15 +132,14 @@ section {
 .address-bottom {
   background-color: var(--dark-gray-color);
   color: var(--pure-white-color);
-  width: 1200px;
-  height: 252px;
+  padding: 60px 0px 60px 0px;
+
   font-size: 14px;
 }
 
 .our-job-title {
   color: var(--main-color);
-
-  padding: 0px 409px 50px 409px;
+  margin: 0px 409px 50px 409px;
   line-height: 1.17;
   font-size: 36px;
   font-weight: 700;
@@ -140,7 +147,7 @@ section {
 
 .team-title {
   color: var(--main-color);
-  padding: 0px 480px 50px 480px;
+  margin: 0px 480px 50px 480px;
   font-size: 36px;
   font-weight: 700;
 }
@@ -148,7 +155,7 @@ section {
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 0px;
+  margin: 0px 30px 0px 30px;
   gap: 30px;
 
   list-style: none;
@@ -182,11 +189,14 @@ section {
   list-style: none;
 
   font-size: 14px;
-  gap: 9px;
 }
 
 .address-link-phone-mail {
   list-style: none;
+  gap: 9px;
+  flex-direction: column;
+  display: flex;
+  padding-left: 0px;
 }
 
 .address-link-phone-mail a:focus,
@@ -203,7 +213,7 @@ section {
   display: flex;
   list-style: none;
   gap: 50px;
-  padding: 32px 13px 32px 371px;
+  padding: 32px 227px 32px 371px;
 }
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
@@ -218,7 +228,7 @@ section {
   margin: 0px 303px 50px 285px;
 }
 .button-list-input {
-  height: 38px;
+  padding: 6px 22px 6px 22px;
   width: 121px;
   font-size: 16px;
   line-height: 1.62;
@@ -247,8 +257,6 @@ section {
   font-size: 26px;
   line-height: 1.17;
   width: 145px;
-
-  height: 31px;
 }
 .address-logo {
   margin: 60px 1240px 161px 0px;
@@ -281,10 +289,18 @@ section {
   font-size: 14px;
 }
 
+.products {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .products-list-span {
   color: var(--light-grey-color);
   line-height: 1.87;
   font-size: 16px;
+}
+
+.address-bottom-span {
+  gap: 20px;
 }
 
 .team-list-paragraf {
@@ -292,4 +308,10 @@ section {
   line-height: 1.17;
   font-size: 16px;
   text-align: center;
+}
+.products-list-item {
+  padding: 20px 24px 20px 24px;
+
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-top: 0px;
 }
