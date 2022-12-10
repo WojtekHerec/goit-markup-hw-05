@@ -33,6 +33,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 .container-navigation {
   width: 1600px;
@@ -53,7 +54,6 @@ body {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 32px 0px;
 }
 
 .title-solutions {
@@ -65,7 +65,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   margin: 0px 237px;
-  padding-top: 200px;
+  padding-top: 106px;
 }
 
 .order-button {
@@ -86,6 +86,7 @@ body {
 .banner-list {
   display: flex;
   padding-left: 0px;
+  padding-bottom: 94px;
   gap: 30px;
   background-color: var(--pure-white-color);
   list-style: none;
@@ -93,6 +94,7 @@ body {
 
 .banner {
   background-color: var(--dark-gray-color);
+  height: 600px;
 }
 
 .our-job {
@@ -206,7 +208,7 @@ body {
   display: flex;
   list-style: none;
   gap: 50px;
-  padding: 32px 227px 32px 371px;
+  margin: 32px 12px 32px 371px;
 }
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
