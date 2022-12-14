@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,8 +35,22 @@
           </nav>
 
           <ul class="link-phone-mail">
-            <li><a href="#">info@example.com</a></li>
-            <li><a href="#">+48 111 111 111</a></li>
+            <li>
+              <a href="#">
+                <svg width="12px" height="10px">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <svg width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +48 111 111 111</a
+              >
+            </li>
           </ul>
         </header>
       </div>

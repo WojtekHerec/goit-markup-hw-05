@@ -36,7 +36,8 @@ body {
   padding: 0px 215px 0px 215px;
 }
 
-.section {
+.section,
+.our-strengths {
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -80,7 +81,7 @@ body {
   display: flex;
   list-style: none;
   gap: 50px;
-  margin: 32px 12px 32px 371px;
+  margin: 32px 12px 32px 345px;
 }
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
@@ -125,7 +126,7 @@ body {
   line-height: 1.87;
 }
 
-.banner-list {
+.our-strengths-list {
   display: flex;
   padding-left: 0px;
   padding-bottom: 94px;
@@ -134,13 +135,13 @@ body {
   list-style: none;
 }
 
-.banner-list-title {
+.our-strengths-list-title {
   line-height: 1.17;
   font-weight: 700;
   font-size: 14px;
 }
 
-.banner-list-paragraf {
+.our-strengths-list-paragraf {
   color: var(--light-grey-color);
   line-height: 1.71;
   font-size: 14px;
