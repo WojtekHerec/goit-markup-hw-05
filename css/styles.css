@@ -8,6 +8,7 @@
   --light-grey-color: rgba(117, 117, 117, 1);
   --border-color: rgba(236, 236, 236, 1);
   --button-color: rgba(245, 244, 250, 1);
+  --icon-grey-color: rgba(175, 177, 184, 1);
 }
 
 body {
@@ -82,7 +83,7 @@ body {
   list-style: none;
   color: var(--light-grey-color);
   gap: 30px;
-  margin: 32px 12px 32px 345px;
+  margin: 32px 12px 32px 305px;
 }
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
@@ -90,26 +91,39 @@ body {
 }
 
 .icon-mail {
-  width: 16px;
+  width: 36px;
   height: 12px;
+  gap: 10px;
 }
 
 .icon-smartphone {
-  width: 10px;
+  width: 30px;
   height: 16px;
 }
 
+.link-phone {
+  width: 130px;
+  gap: none;
+}
+
+.link-mail {
+  width: 161px;
+}
+
 .link-phone-mail a {
+  display: flex;
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
-  gap: 10px;
-  padding: 32px 0px 32px 110px;
+  letter-spacing: 2%;
+  height: 16px;
 }
 
 .banner {
   background-color: var(--dark-gray-color);
   height: 600px;
+  background-image: url('../images/background.jpg');
+  background-image: linear-gradient(to top black);
 }
 
 .title-solutions {
@@ -138,7 +152,15 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
-
+.icon-antenna,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  background-color: var(--button-color);
+  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
+}
 .our-strengths-list {
   display: flex;
   padding-left: 0px;
@@ -214,11 +236,33 @@ body {
   text-align: center;
 }
 
+.our-clients-title {
+  line-height: 1.17;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+.our-clients-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.icon-yaco {
+  width: 106px;
+  height: 60px;
+}
+
+.our-clients-list-item {
+  padding: 16px 32px;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--icon-grey-color);
+}
+
 .address-bottom {
   background-color: var(--dark-gray-color);
   color: var(--pure-white-color);
   padding: 60px 0px 60px 0px;
-
   font-size: 14px;
 }
 
