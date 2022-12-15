@@ -84,8 +84,8 @@ body {
   gap: 30px;
   margin: 32px 12px 32px 345px;
 }
-.link-phone-mail :focus,
-.link-phone-mail :hover {
+.link-phone-mail use:focus,
+.link-phone-mail use:hover {
   color: var(--blue-color);
 }
 
