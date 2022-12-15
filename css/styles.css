@@ -84,8 +84,8 @@ body {
   gap: 30px;
   margin: 32px 12px 32px 345px;
 }
-.link-phone-mail a:focus,
-.link-phone-mail a:hover {
+.link-phone-mail :focus,
+.link-phone-mail :hover {
   color: var(--blue-color);
 }
 
@@ -103,7 +103,6 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
-
   gap: 10px;
   padding: 32px 30px 32px 0px;
 }
