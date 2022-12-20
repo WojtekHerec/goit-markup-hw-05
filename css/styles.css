@@ -96,6 +96,11 @@ body {
   gap: 10px;
 }
 
+.icon-mail :hover,
+.icon-smartphone :hover {
+  fill: var(--blue-color);
+}
+
 .icon-smartphone {
   width: 30px;
   height: 16px;
@@ -222,7 +227,13 @@ body {
   gap: 30px;
 }
 
+.team-list-item {
+  margin-top: 0px;
+  background-color: var(--pure-white-color);
+}
+
 .team-list-title {
+  padding-top: 30px;
   line-height: 1.17;
   font-weight: 500;
   font-size: 16px;
@@ -234,6 +245,30 @@ body {
   line-height: 1.17;
   font-size: 16px;
   text-align: center;
+  padding-bottom: 16px;
+}
+
+.team-list-social-links {
+  display: flex;
+  text-align: center;
+  padding: 16px 32px 30px 32px;
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+
+  margin-left: 10px;
+  fill: var(--light-grey-color);
+}
+
+.icons-join-us {
+  fill: var(--pure-white);
+  width: 20px;
+  height: 20px;
 }
 
 .our-clients-title {
@@ -271,6 +306,7 @@ body {
   color: var(--pure-white-color);
   padding: 60px 0px 60px 0px;
   font-size: 14px;
+  display: flex;
 }
 
 .address-bottom a {
@@ -279,7 +315,7 @@ body {
 }
 
 .address-logo {
-  margin: 60px 1240px 161px 0px;
+  margin: 60px 171px 161px 0px;
 }
 
 .address-bottom-span {
@@ -304,6 +340,30 @@ body {
 .address-link-phone-mail a:focus,
 .address-link-phone-mail a:hover {
   color: var(--blue-color);
+}
+
+.footer-social-links {
+  width: 206px;
+  height: 44px;
+  margin: 16px 32px 30px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.icons-ring-bottom {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 /*portfolio*/
