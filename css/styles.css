@@ -366,6 +366,24 @@ body {
   cursor: pointer;
 }
 
+.logo-icon:hover,
+.logo-icon:focus {
+  color: var(--blue-color);
+  border-color: var(--blue-color);
+}
+
+.logo-icon {
+  color: var(--icon-grey-color);
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-grey-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 /*portfolio*/
 
 .products-list {
