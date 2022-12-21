@@ -227,12 +227,23 @@ body {
   gap: 30px;
 }
 
+.team-list-card {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 270px;
+  text-align: center;
+  background-color: var(--pure-white);
+  text-align: center;
+}
+
 .team-list-item {
+  margin-bottom: 0px;
   margin-top: 0px;
   background-color: var(--pure-white-color);
 }
 
 .team-list-title {
+  margin: 0px;
   padding-top: 30px;
   line-height: 1.17;
   font-weight: 500;
@@ -249,26 +260,41 @@ body {
 }
 
 .team-list-social-links {
+  width: 206px;
+  height: 44px;
+
+  margin: 16px 32px 0px;
+  justify-content: center;
   display: flex;
-  text-align: center;
-  padding: 16px 32px 30px 32px;
+  padding: 0;
+  list-style: none;
 }
 
-.icon-instagram,
-.icon-twitter,
-.icon-facebook,
-.icon-linkedin {
+.icons-ring {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  color: var(--social-icons);
+}
+
+.icons-ring:hover,
+.icons-ring:focus {
+  background-color: var(--blue-color);
+  color: var(--pure-white);
+}
+
+.icons-our-team {
   width: 20px;
   height: 20px;
-
   margin-left: 10px;
   fill: var(--light-grey-color);
-}
-
-.icons-join-us {
-  fill: var(--pure-white);
-  width: 20px;
-  height: 20px;
+  fill: currentColor;
 }
 
 .our-clients-title {
@@ -299,6 +325,12 @@ body {
   width: 170px;
   height: 90px;
   border: 1px solid var(--icon-grey-color);
+}
+
+.bottom {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
 }
 
 .address-bottom {
@@ -342,6 +374,30 @@ body {
   color: var(--blue-color);
 }
 
+.join-us {
+  display: flex;
+  display: block;
+  justify-content: center;
+  width: 206px;
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.join-us-title {
+  color: var(--pure-white);
+  width: 113px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+.icons-join-us {
+  fill: var(--pure-white);
+  width: 20px;
+  height: 20px;
+}
+
 .footer-social-links {
   width: 206px;
   height: 44px;
@@ -351,7 +407,6 @@ body {
   display: flex;
   margin-top: 20px;
   padding: 0;
-
   list-style: none;
 }
 
@@ -364,6 +419,15 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
+}
+
+.icons-join-us {
+  fill: var(--pure-white);
+}
+
+.icons-ring-bottom:hover,
+.icons-ring-bottom:focus {
+  background-color: var(--blue-color);
 }
 
 .logo-icon:hover,
