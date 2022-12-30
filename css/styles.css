@@ -90,12 +90,6 @@ body {
   color: var(--blue-color);
 }
 
-.icon-mail {
-  width: 36px;
-  height: 12px;
-  gap: 10px;
-}
-
 .icon-mail :hover,
 .icon-smartphone :hover {
   fill: var(--blue-color);
@@ -288,11 +282,15 @@ body {
   background-color: var(--blue-color);
   color: var(--pure-white);
 }
+.icons-our-team :hover,
+.icons-our-team :focus {
+  fill: #fff;
+}
 
 .icons-our-team {
   width: 20px;
   height: 20px;
-  margin-left: 10px;
+
   fill: var(--light-grey-color);
   fill: currentColor;
 }
@@ -401,7 +399,7 @@ body {
 .footer-social-links {
   width: 206px;
   height: 44px;
-  margin: 16px 32px 30px;
+
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -453,14 +451,26 @@ body {
 .products-list {
   display: flex;
   padding-left: 0px;
-
   width: 1170px;
   flex-wrap: wrap;
   margin: 0px 30px 0px 30px;
   gap: 30px;
-
   list-style: none;
 }
+
+.products-list-photo {
+  width: 370px;
+  margin-bottom: 30px;
+  border: 1px solid var(--border-cards);
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.products-list-photo:hover,
+.products-list-photo:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .box {
   border-radius: 4px;
   cursor: pointer;
