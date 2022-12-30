@@ -282,18 +282,17 @@ body {
   background-color: var(--blue-color);
   color: var(--pure-white);
 }
-.icons-our-team :hover,
-.icons-our-team :focus {
-  --color1: #fff;
+.icons-our-team use:hover,
+.icons-our-team use:focus {
+  fill: var(--pure-white);
 }
 
 .icons-our-team {
   width: 20px;
   height: 20px;
-  --color1: #fff;
 
   fill: var(--light-grey-color);
-  fill: currentColor;
+  fill: var(--color1);
 }
 
 .our-clients-title {
