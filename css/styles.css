@@ -284,12 +284,13 @@ body {
 }
 .icons-our-team :hover,
 .icons-our-team :focus {
-  fill: #fff;
+  --color1: #fff;
 }
 
 .icons-our-team {
   width: 20px;
   height: 20px;
+  --color1: #fff;
 
   fill: var(--light-grey-color);
   fill: currentColor;
