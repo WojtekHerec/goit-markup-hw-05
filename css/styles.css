@@ -282,8 +282,8 @@ body {
   background-color: var(--blue-color);
   color: var(--pure-white);
 }
-.icons-our-team use:hover,
-.icons-our-team use:focus {
+.icons-our-team :hover,
+.icons-our-team :focus {
   fill: var(--pure-white);
 }
 
