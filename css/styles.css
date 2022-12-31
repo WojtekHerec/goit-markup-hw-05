@@ -84,7 +84,9 @@ body {
   color: var(--light-grey-color);
   gap: 30px;
   margin: 32px 12px 32px 305px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .link-phone-mail a:focus,
 .link-phone-mail a:hover {
   color: var(--blue-color);
@@ -96,9 +98,14 @@ body {
     brightness(100%) contrast(91%);
 }
 
+.icon-mail {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .icon-smartphone {
   width: 30px;
   height: 16px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-phone {
@@ -318,6 +325,7 @@ body {
   height: 90px;
   border: 1px solid var(--icon-grey-color);
   fill: currentColor;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-clients-list-item:hover,
@@ -419,10 +427,7 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
-}
-
-.icons-join-us {
-  fill: var(--pure-white);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-ring-bottom:hover,
