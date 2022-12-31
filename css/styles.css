@@ -272,8 +272,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   color: var(--icon-grey-color);
 }
@@ -281,18 +280,13 @@ body {
 .icons-ring:hover,
 .icons-ring:focus {
   background-color: var(--blue-color);
-}
-.icons-our-team :hover,
-.icons-our-team :focus {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1767%) hue-rotate(355deg)
-    brightness(107%) contrast(100%);
+  --color1: #fff;
 }
 
 .icons-our-team {
   width: 20px;
   height: 20px;
   fill: var(--light-grey-color);
-  fill: var(--color1);
 }
 
 .our-clients-title {
