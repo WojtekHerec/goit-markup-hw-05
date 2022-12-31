@@ -92,7 +92,8 @@ body {
 
 .icon-mail :hover,
 .icon-smartphone :hover {
-  fill: var(--blue-color);
+  filter: brightness(0) saturate(100%) invert(69%) sepia(66%) saturate(6305%) hue-rotate(185deg)
+    brightness(100%) contrast(91%);
 }
 
 .icon-smartphone {
@@ -280,17 +281,16 @@ body {
 .icons-ring:hover,
 .icons-ring:focus {
   background-color: var(--blue-color);
-  color: var(--pure-white);
 }
 .icons-our-team :hover,
 .icons-our-team :focus {
-  fill: var(--pure-white);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1767%) hue-rotate(355deg)
+    brightness(107%) contrast(100%);
 }
 
 .icons-our-team {
   width: 20px;
   height: 20px;
-
   fill: var(--light-grey-color);
   fill: var(--color1);
 }
@@ -326,15 +326,10 @@ body {
   fill: currentColor;
 }
 
-.logo-icon:hover,
-.logo-icon:focus {
-  color: var(--blue-color);
-  border-color: var(--blue-color);
-}
-
 .our-clients-list-item:hover,
 .our-clients-list-item:focus {
-  color: var(--blue-color);
+  filter: brightness(0) saturate(100%) invert(69%) sepia(66%) saturate(6305%) hue-rotate(185deg)
+    brightness(100%) contrast(91%);
 }
 
 .bottom {
@@ -403,7 +398,8 @@ body {
 }
 
 .icons-join-us {
-  fill: var(--pure-white);
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1767%) hue-rotate(355deg)
+    brightness(107%) contrast(100%);
   width: 20px;
   height: 20px;
 }
