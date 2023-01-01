@@ -33,7 +33,7 @@
                 <a class="agency-active" href="index.html">Agencja</a>
               </li>
               <li class="navigation-list-item">
-                <a class="portfolio" href="portfolio.html">Portfolio</a>
+                <a class="portfolio-active" href="portfolio.html">Portfolio</a>
               </li>
               <li class="navigation-list-item"><a href="#">Kontakt</a></li>
             </ul>
@@ -63,7 +63,13 @@
           <div class="container">
             <div class="banner-title">
               <h1 class="title-solutions">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-              <input class="order-button" type="button" value="Zamów Usługe" />
+              <input class="order-button" type="button" data-modal-open value="Zamów Usługe" />
+
+              <div class="backdrop is-hidden" data-modal>
+                <div class="modal-box">
+                  <button class="btn-modal" data-modal-close>&times;</button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -359,10 +365,7 @@
               </ul>
             </address>
           </div>
-          <button data-modal-open>OPEN</button>
-          <div class="modal is-hidden" data-modal>
-            <button data-modal-close>X</button>
-          </div>
+
           <div class="join-us">
             <span class="join-us-title">DOłĄCZ DO NAS</span>
             <ul class="footer-social-links">
