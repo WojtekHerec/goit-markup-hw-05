@@ -557,6 +557,10 @@ body {
   z-index: 3;
 }
 
+.product-list-card {
+  overflow: hidden;
+}
+
 .products-list-description {
   color: var(--pure-white-color);
   background-color: var(--blue-color);
