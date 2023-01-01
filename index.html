@@ -29,8 +29,12 @@
           <a class="navigation-logo" href="index.html"><span>Web</span>Studio</a>
           <nav>
             <ul class="navigation-list">
-              <li class="navigation-list-item"><a href="index.html">Agencja</a></li>
-              <li class="navigation-list-item"><a href="portfolio.html">Portfolio</a></li>
+              <li class="navigation-list-item">
+                <a class="agency-active" href="index.html">Agencja</a>
+              </li>
+              <li class="navigation-list-item">
+                <a class="portfolio" href="portfolio.html">Portfolio</a>
+              </li>
               <li class="navigation-list-item"><a href="#">Kontakt</a></li>
             </ul>
           </nav>
@@ -115,10 +119,12 @@
               <ul class="our-job-list">
                 <li>
                   <img src="images/coding.jpg" alt="pisanie kodu" width="370" height="294" />
+                  <p class="our-job-list-item">Aplikacje komputerowe</p>
                 </li>
 
                 <li>
                   <img src="images/phone.jpg" alt="Telefon na dłoni" width="370" height="294" />
+                  <p class="our-job-list-item">Aplikacje mobilne</p>
                 </li>
                 <li>
                   <img
@@ -127,6 +133,7 @@
                     width="370"
                     height="294"
                   />
+                  <p class="our-job-list-item">Rozwiązania graficzne</p>
                 </li>
               </ul>
             </div>
@@ -352,7 +359,10 @@
               </ul>
             </address>
           </div>
-
+          <button data-modal-open>OPEN</button>
+          <div class="modal is-hidden" data-modal>
+            <button data-modal-close>X</button>
+          </div>
           <div class="join-us">
             <span class="join-us-title">DOłĄCZ DO NAS</span>
             <ul class="footer-social-links">
@@ -381,5 +391,6 @@
         </div>
       </footer>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
