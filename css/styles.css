@@ -91,7 +91,7 @@ body {
   margin: 32px 12px 32px 305px;
 
   transition-property: color;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -115,7 +115,7 @@ body {
 .portfolio-active,
 .agency-active {
   transition-property: color;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -199,7 +199,7 @@ body {
   justify-content: center;
 
   transition-property: transform, visibility, opacity;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -221,7 +221,7 @@ body {
   z-index: 1;
 
   transition-property: transform, visibility, opacity;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -362,7 +362,7 @@ body {
   justify-content: center;
   align-items: center;
   transition-property: color, background-color;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
@@ -411,7 +411,7 @@ body {
   border: 1px solid var(--icon-grey-color);
   fill: currentColor;
   transition-property: filter;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -516,7 +516,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
   transition-property: color, background-color;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -596,7 +596,7 @@ body {
   letter-spacing: 0.03em;
 
   transition-property: transform, visibility, opacity, z-index;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -646,7 +646,7 @@ body {
   cursor: pointer;
   border-style: none;
   transition-property: color, background-color;
-  transition-delay: 0s;
+
   transition-duration: 250ms;
   transition-timing-function: ease-in-out, cubic-bezier(0.4, 0, 0.2, 1);
 }
